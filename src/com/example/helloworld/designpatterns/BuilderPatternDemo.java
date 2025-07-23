@@ -55,6 +55,10 @@ public class BuilderPatternDemo {
                         age(29).
                         build();
         System.out.println(user.toString());
+        User.Builder builder = new User.Builder();
+        User user2 =
+                builder.firstName("steve").lastName("smith").age(30).build();
+        System.out.println(user2.toString());
 
     }
 }

@@ -17,8 +17,8 @@ public class MaxElement {
 
     public static void main(String[] args) {
         List<Integer> intlist = Arrays.asList(1, 2, 3, 6, 5, 4);
-        System.out.println(findMax(intlist,0,3));
-        List<Double> dlist = Arrays.asList(1.2,3.4,5.6,3.3,4.2);
-        System.out.println(findMax(dlist,0,4));
+        System.out.println(findMax(intlist, 0, 3));
+        List<Double> dlist = Arrays.asList(1.2, 3.4, 5.6, 3.3, 4.2);
+        System.out.println(findMax(dlist, 0, 4));
     }
 }

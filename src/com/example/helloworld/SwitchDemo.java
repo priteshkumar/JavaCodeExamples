@@ -1,4 +1,5 @@
 package com.example.helloworld;
+
 import java.util.Scanner;
 
 public class SwitchDemo {
@@ -6,7 +7,7 @@ public class SwitchDemo {
         Scanner input = new Scanner(System.in);
         System.out.println("enter number");
         int value = input.nextInt();
-        switch(value % 2){
+        switch (value % 2) {
             case 0:
                 System.out.println("even value");
                 break;

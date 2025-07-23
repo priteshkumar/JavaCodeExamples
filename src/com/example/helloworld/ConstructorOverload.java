@@ -4,16 +4,16 @@ public class ConstructorOverload {
     private int a;
     private int b;
 
-    private ConstructorOverload(int i,int j){
+    private ConstructorOverload(int i, int j) {
         this.a = i;
         this.b = j;
     }
 
-    private ConstructorOverload(int i){
-        this(i,i);
+    private ConstructorOverload(int i) {
+        this(i, i);
     }
 
-    public ConstructorOverload(){
+    public ConstructorOverload() {
         this(0);
     }
 

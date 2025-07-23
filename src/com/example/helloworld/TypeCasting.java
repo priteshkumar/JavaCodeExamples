@@ -9,7 +9,7 @@ public class TypeCasting {
         System.out.println(c);
 
         double d = 9.78;
-        int e = (int)d; //narrowing cast larger to smaller type
+        int e = (int) d; //narrowing cast larger to smaller type
         System.out.println(e);
     }
 }

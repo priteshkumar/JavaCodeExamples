@@ -21,7 +21,7 @@ public class User {
         this.username = username;
     }
 
-    public void showDashBoard(){
+    public void showDashBoard() {
         System.out.println("show user dashboard");
     }
 }

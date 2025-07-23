@@ -1,11 +1,13 @@
 package com.example.helloworld.corejava.generics;
 
-class Box<T>{
+class Box<T> {
     private T t;
-    public void setT(T t){
+
+    public void setT(T t) {
         this.t = t;
     }
-    public T get(){
+
+    public T get() {
         return this.t;
     }
 }

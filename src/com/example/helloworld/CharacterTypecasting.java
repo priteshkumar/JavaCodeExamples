@@ -6,9 +6,9 @@ public class CharacterTypecasting {
         System.out.println(a);
         a = (char) (a + 1);
         System.out.println(a);
-        a = 'a' +1;
+        a = 'a' + 1;
         System.out.println(a);
-        a = (char)('a' + a);
+        a = (char) ('a' + a);
         System.out.println(a);
 
     }

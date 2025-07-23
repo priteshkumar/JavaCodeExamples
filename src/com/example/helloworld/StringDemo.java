@@ -3,7 +3,7 @@ package com.example.helloworld;
 public class StringDemo {
     public static void main(String[] args) {
         //strings are immutable in java
-        String first ="Java";
+        String first = "Java";
         String second = "Java";
         System.out.println(first == second);//same reference
         System.out.println(first.equals(second));
@@ -16,6 +16,6 @@ public class StringDemo {
         //string methods
         System.out.println(first.concat(a));
         System.out.println(first.substring(1));
-        System.out.println(first.substring(1,3));
+        System.out.println(first.substring(1, 3));
     }
 }

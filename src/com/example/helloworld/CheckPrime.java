@@ -10,7 +10,7 @@ public class CheckPrime {
         if (val == 1) {
             System.out.println(val + " is prime number");
             return;
-        }else if(val == 2){
+        } else if (val == 2) {
             System.out.println(val + " is not a prime number");
             return;
         }

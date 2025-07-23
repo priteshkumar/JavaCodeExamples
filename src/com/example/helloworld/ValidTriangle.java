@@ -1,4 +1,5 @@
 package com.example.helloworld;
+
 import java.util.Scanner;
 
 public class ValidTriangle {
@@ -10,10 +11,9 @@ public class ValidTriangle {
         int angle3 = input.nextInt();
         boolean greaterthanzero = (angle1 > 0) && (angle2 > 0) && (angle3 > 0);
 
-        if(greaterthanzero && ((angle1 + angle2 + angle3) == 180)){
+        if (greaterthanzero && ((angle1 + angle2 + angle3) == 180)) {
             System.out.println("valid triangle");
-        }
-        else{
+        } else {
             System.out.println("invalid triangle");
         }
     }

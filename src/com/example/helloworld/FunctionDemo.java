@@ -20,6 +20,6 @@ public class FunctionDemo {
         System.out.println(addNumbers(a, b));
         double c = 45.5;
         double d = 40.0;
-        System.out.println(addNumbers(c,d));
+        System.out.println(addNumbers(c, d));
     }
 }

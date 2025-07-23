@@ -1,8 +1,8 @@
 package com.example.helloworld;
 
-public class SavingAccount extends BankAccount{
+public class SavingAccount extends BankAccount {
 
-    public SavingAccount(){
+    public SavingAccount() {
         this.type = "saving";
     }
 

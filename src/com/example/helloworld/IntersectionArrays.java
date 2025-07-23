@@ -23,7 +23,7 @@ public class IntersectionArrays {
 
     public static void main(String[] args) {
         int[] a = {10, 19, 20, 30, 40, 40, 40, 50};
-        int[] b = {15, 16, 17, 20, 25, 30, 30, 40,40};
+        int[] b = {15, 16, 17, 20, 25, 30, 30, 40, 40};
         System.out.println(intersection(a, b));
     }
 }
