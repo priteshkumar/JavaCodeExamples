@@ -1,8 +1,30 @@
 package com.example.helloworld.corejava.lambdaexp;
 
+import java.util.List;
 import java.util.function.Predicate;
 
 public class PredicateChainingDemo {
+  /*
+  Suppose you need to process a list of strings,
+  to keep only the strings that are non-null, non-empty, and shorter than 5 characters.
+   */
+  public static void testString(){
+    Predicate<String> nonNull = (val) -> val != null;
+    Predicate<String> nonEmpty = (val) -> val.length() > 0;
+    Predicate<String> shorterThanfive = (val) -> val.length() < 5;
+
+    Predicate<String> test = nonNull.and(nonEmpty).and(shorterThanfive);
+    String x = "work";
+    //test.test(x);
+    System.out.println(x + " is " + test.test(x));
+    x = null;
+    System.out.println(test.test(x));
+    x = "";
+    System.out.println(test.test(x));
+    x ="hello";
+    System.out.println(test.test(x));
+  }
+
   public static void testNegate() {
     Predicate<String> testLen = (val) -> val.length() > 3;
     boolean flag = testLen.negate().test("ands");
@@ -25,5 +47,6 @@ public class PredicateChainingDemo {
     System.out.println(flag);
     testOr();
     testNegate();
+    testString();
   }
 }
